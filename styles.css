@@ -1,0 +1,84 @@
+body  {
+
+    background: #000000;
+    color: beige;
+padding-bottom: 50px;
+    margin: 0px;
+}    
+
+header  {
+font-size: 28;
+color: white;
+border-bottom: solid 3px white;
+padding: 20px;
+
+font-family: "Bodoni Moda SC", serif;
+
+}
+
+.chama-video-intro  {DISPLAY: FLEX;
+    PADDING-BOTTOM: 20PX;
+    padding-top: 20px;
+    background: #f00;
+justify-content: center;
+font-family: "New Amsterdam", sans-serif;
+}
+
+
+.chama-texto{
+
+margin-right: 3%;
+}
+
+h1  {
+font-size: 60px;
+}
+
+p {
+font-size: 35px;
+color: rgb(12, 128, 128);
+}
+
+img  {
+height: 170px;
+}
+
+.indicacao-filmes  {
+   display: flex;
+   overflow-x: auto;
+ gap: 20px;
+}
+
+.sugestoes  {
+padding-top: 5px;
+}
+
+.indicacao-filmes img {
+opacity: 0.5;
+}
+
+.indicacao-filmes img:hover {
+opacity: 1;
+border: solid white 4px
+}
+
+.sugestoes h2 {
+font-family: "Honk", system-ui;
+font-size: 50px;
+}
+
+footer  {
+    background: radial-gradient(#890002, #000000c7);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+
+}
+
+footer p  {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+}
+
